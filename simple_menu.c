@@ -1,3 +1,6 @@
+// alterar o codigo para ter struct e ponteiros
+// adicionar a possibildade de apagar e alterar cliente e produto
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -48,7 +51,7 @@ int menu(){
                 lista_cliente();
                 break;
             case 4:
-                printf("4\n");
+                //lista_produto();
                 break;
         }
 
