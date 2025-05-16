@@ -1,3 +1,4 @@
+
 # Simple Menu
 
 ## Sobre o Projeto
@@ -12,5 +13,17 @@ Este é um projeto simples de menu em console, desenvolvido com o objetivo de pr
 
 - Listar todos os produtos cadastrados
 
-Ideal para iniciantes que desejam entender melhor como funcionam estruturas de repetição, condicionais e armazenamento de dados em memória.
+## Tecnologias Utilizadas
 
+- Linguagem de Programação: **C**
+- Compilador compatível: **GCC**
+
+## Autor
+
+- **Nome:** Gustavo Desordi  
+- **Curso:** Ciência da Computação – 1º semestre, turma BX  
+- **Universidade:** Unochapecó
+
+## Contato
+
+- **E-mail:** gustavo.desordi@unochapeco.edu.br
