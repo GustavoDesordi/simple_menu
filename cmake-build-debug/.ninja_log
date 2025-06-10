@@ -1,5 +1,0 @@
-# ninja log v6
-1	66	1749416942827343549	CMakeFiles/SistemaVendas.dir/main.c.o	790b840ac1dbc672
-1	69	1749416942828343576	CMakeFiles/SistemaVendas.dir/src/cliente/cliente.c.o	1235404336ae0ed
-2	75	1749416942828343576	CMakeFiles/SistemaVendas.dir/src/produto/produto.c.o	89b0e69d789b5db9
-75	127	1749416942902345591	SistemaVendas	dfcc4dff07d83112
