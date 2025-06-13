@@ -1,6 +1,6 @@
 # Simple Menu
 
-## 📋 Descrição
+##  Descrição
 
 Este projeto é um **sistema simples de menu interativo** desenvolvido em linguagem C.
 
@@ -21,7 +21,7 @@ Cadastro, listagem, atualização e exclusão de produtos (com ID único, nome e
 
 ---
 
-## 💻 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - Linguagem C
 - Ferramenta de build: CMake
@@ -29,12 +29,14 @@ Cadastro, listagem, atualização e exclusão de produtos (com ID único, nome e
 
 ---
 
-## 👤 Autoria
+##  Autoria
 
 **Gustavo Desordi**  
 Acadêmico de Ciência da Computação – Unochapecó  
 
-📧 Email: [gustavodesordi2006@gmail.com](mailto:gustavodesordi2006@gmail.com)  
-🔗 LinkedIn: [https://www.linkedin.com/in/gustavodesordi](https://www.linkedin.com/in/gustavodesordi)
+ Email: [gustavo.desordi@unochapeco.edu.br](mailto:gustavo.desordi@unochapeco.edu.br)  
+ LinkedIn: [https://www.linkedin.com/in/gustavodesordi](https://www.linkedin.com/in/gustavodesordi)
 
 ---
+
+![Image](https://github.com/user-attachments/assets/d02d7097-3bfe-423a-b09c-83046f184693)
