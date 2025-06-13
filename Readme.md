@@ -39,4 +39,6 @@ Acadêmico de Ciência da Computação – Unochapecó
 
 ---
 
-![Image](https://github.com/user-attachments/assets/d02d7097-3bfe-423a-b09c-83046f184693)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d02d7097-3bfe-423a-b09c-83046f184693" alt="Image" />
+</p>
