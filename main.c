@@ -1,3 +1,6 @@
+//codigo ainda esta em desenvolvimento, por isso pode apresentar falhas ou bugs.
+//salve professor lucas :D
+
 #include <stdio.h>
 #include "src/cliente/cliente.h"
 #include "src/produto/produto.h"
