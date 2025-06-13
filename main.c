@@ -69,7 +69,7 @@ int main() {
             "\n--- MENU PRINCIPAL ---\n"
             "1 - Clientes\n"
             "2 - Produtos\n"
-            "3 - Vendas (em breve)\n"
+            "3 - Vendas (ainda não está pronto)\n"
             "0 - Sair\n"
             "Escolha: "
         );
@@ -78,7 +78,7 @@ int main() {
         if (opcao == 1) menu_clientes();
         else if (opcao == 2) menu_produtos();
         else if (opcao == 3) {
-            printf("Funcionalidade de vendas ainda não implementada.\n");
+            printf("Desenvolvendo ainda.\n");
         }
 
     } while (opcao != 0);
