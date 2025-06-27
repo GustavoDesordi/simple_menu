@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "cliente.h"
 
 Cliente clientes[MAX_CLIENTES];
@@ -37,6 +36,7 @@ void listar_clientes() {
 }
 
 void atualizar_cliente(int id) {
+
     for (int i = 0; i < ultimo_id_cliente; i++) {
         if (clientes[i].id == id) {
             printf("Novo nome: ");

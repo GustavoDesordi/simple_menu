@@ -10,6 +10,9 @@ typedef struct {
     int estoque;
 } Produto;
 
+extern Produto produtos[MAX_PRODUTOS];
+extern int ultimo_id_produto;
+
 void inserir_produto();
 void listar_produtos();
 void atualizar_produto(int id);

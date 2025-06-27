@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "produto.h"
 
 Produto produtos[MAX_PRODUTOS];

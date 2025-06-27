@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "src/cliente/cliente.h"
 #include "src/produto/produto.h"
+#include "src/venda/venda.h"
 
 void menu_clientes() {
     int opcao;
@@ -62,6 +63,31 @@ void menu_produtos() {
     } while (opcao != 0);
 }
 
+void menu_vendas() {
+    int opcao;
+    do {
+        printf("\n--- MENU VENDAS ---\n");
+        printf("1 - Inserir Venda\n");
+        printf("2 - Listar Vendas\n");
+        printf("3 - Atualizar Venda\n");
+        printf("4 - Remover Venda\n");
+        printf("0 - Voltar\n");
+        printf("Escolha: ");
+        scanf("%d", &opcao);
+
+        if (opcao == 1) inserir_venda();
+        else if (opcao == 2) listar_vendas();
+        else if (opcao == 3) {
+            int id; printf("ID da venda: "); scanf("%d", &id);
+            atualizar_venda(id);
+        }
+        else if (opcao == 4) {
+            int id; printf("ID da venda: "); scanf("%d", &id);
+            remover_venda(id);
+        }
+    } while (opcao != 0);
+}
+
 int main() {
     int opcao;
     do {
@@ -69,7 +95,7 @@ int main() {
             "\n--- MENU PRINCIPAL ---\n"
             "1 - Clientes\n"
             "2 - Produtos\n"
-            "3 - Vendas (em breve)\n"
+            "3 - Vendas\n"
             "0 - Sair\n"
             "Escolha: "
         );
@@ -77,9 +103,7 @@ int main() {
 
         if (opcao == 1) menu_clientes();
         else if (opcao == 2) menu_produtos();
-        else if (opcao == 3) {
-            printf("Funcionalidade de vendas ainda não implementada.\n");
-        }
+        else if (opcao == 3) menu_vendas();
 
     } while (opcao != 0);
 
