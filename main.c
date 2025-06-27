@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include "src/cliente/cliente.h"
 #include "src/produto/produto.h"
@@ -105,10 +104,6 @@ int main() {
         if (opcao == 1) menu_clientes();
         else if (opcao == 2) menu_produtos();
         else if (opcao == 3) menu_vendas();
-
-        else if (opcao == 3) {
-            printf("Desenvolvendo ainda.\n");
-        }
 
     } while (opcao != 0);
 
