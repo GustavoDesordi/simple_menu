@@ -1,5 +1,3 @@
-//codigo ainda esta em desenvolvimento, por isso pode apresentar falhas ou bugs.
-//salve professor lucas :D
 
 #include <stdio.h>
 #include "src/cliente/cliente.h"
@@ -98,11 +96,7 @@ int main() {
             "\n--- MENU PRINCIPAL ---\n"
             "1 - Clientes\n"
             "2 - Produtos\n"
-<<<<<<< HEAD
             "3 - Vendas\n"
-=======
-            "3 - Vendas (ainda não está pronto)\n"
->>>>>>> 6009c0dcf49758f22563b6da1107e37b69b4d574
             "0 - Sair\n"
             "Escolha: "
         );
@@ -110,13 +104,11 @@ int main() {
 
         if (opcao == 1) menu_clientes();
         else if (opcao == 2) menu_produtos();
-<<<<<<< HEAD
         else if (opcao == 3) menu_vendas();
-=======
+
         else if (opcao == 3) {
             printf("Desenvolvendo ainda.\n");
         }
->>>>>>> 6009c0dcf49758f22563b6da1107e37b69b4d574
 
     } while (opcao != 0);
 
