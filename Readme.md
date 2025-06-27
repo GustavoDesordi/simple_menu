@@ -17,7 +17,7 @@ Cadastro, listagem, atualização e exclusão de clientes (com ID único, nome e
 Cadastro, listagem, atualização e exclusão de produtos (com ID único, nome e preço).
 
 - **Vendas:**  
-(Estrutura inicial planejada, implementação a definir conforme requisitos finais.)
+Cadastro, listagem, atualização e exclusão de vendas, relacionando clientes e produtos, com controle de quantidade e data da venda.
 
 ---
 
