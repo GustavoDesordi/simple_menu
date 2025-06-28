@@ -14,12 +14,12 @@ typedef struct {
 } ItemVenda;
 
 typedef struct {
-    int id;                     // ID da venda
-    int id_cliente;             // ID do cliente comprador
-    char data[11];              // DD/MM/AAAA, coloquei pra bunitu
+    int id;
+    int id_cliente;
+    char data[11];              // data dia mes e ano
     ItemVenda itens[MAX_ITENS_VENDA];
     int num_itens;
-    float total;                // calculado automaticamente
+    float total;
 } Venda;
 
 void inserir_venda();
